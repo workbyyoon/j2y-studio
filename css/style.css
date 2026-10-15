@@ -3103,9 +3103,6 @@ body {
   font-style: normal !important;
   line-height: 1.01 !important;
 }
-.about-accent {
-  color: #4b6748;
-}
 .about .eyebrow {
   color: #53684d;
 }
@@ -4043,7 +4040,7 @@ body.cursor-enabled.cursor-on-lime .cursor-ring.active .cursor-label {
 .about.section-pad.shell .about-left h2 .about-accent {
   font: inherit;
   letter-spacing: inherit;
-  color: #4b6748;
+  color:#171a17;
 }
 @media (max-width:760px) {
   .about.section-pad.shell .about-left h2 {
@@ -4217,7 +4214,7 @@ html {
   width: clamp(62px,7vw,104px);
   height: clamp(62px,7vw,104px);
   margin-top: 20px;
-  color: #a9c96e;
+  color: #d9f469;
 }
 .about .hero-symbol svg {
   display: block;
@@ -4292,3 +4289,7 @@ html {
     line-height: 1.8;
   }
 }
+
+/* Case study: live website action immediately after project details */
+.modal-links-before-gallery{margin:24px 0 24px;}
+@media(max-width:760px){.modal-links-before-gallery{margin:20px 0;}}
